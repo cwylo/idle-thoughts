@@ -18,7 +18,7 @@ Plenty of people have pointed out these rather troubling assumptions about human
 
 My question is this: what if a game could portray a *fundamentally different* relationship between humanity and our environment? One where the relationship is reciprocal, capable of mutual benefit, where both are genuine actors capable of shaping the contours of that relationship? [^3]
 
-I am fairly certain this was accidentally done by *Loop Hero*, of all games. Bear with me.
+I am fairly certain this was accidentally done by *Loop Hero*, of all games. Bear with me. (Mild spoilers for tile interactions in *Loop Hero* ahead.)
 
 *Loop Hero* is definitely one of the notable hits of the current moment, along with *Valheim*. It's a mash-up of incremental games with the roguelike genre, which works unsurprisingly well considering both make use of repetitive cycles of gameplay aimed at generating enough meta-resources or player expertise (usually both) to make future repetitions go more quickly and efficiently.
 
