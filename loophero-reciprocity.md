@@ -1,6 +1,6 @@
 # Round and Round We Go: Reciprocity in Loop Hero
 
-_Directly inspired by [this article](https://www.pcgamesn.com/factorio/factory-games-climate-change) on factory games and climate change._
+_Directly inspired by [this article](https://www.pcgamesn.com/factorio/factory-games-climate-change) on factory games and climate change. This article written on 2021-03-09._
 
 There are plenty of games that have, as a basic premise, the idea that the player needs to extract resources of some sort from the land in order to advance.
 
