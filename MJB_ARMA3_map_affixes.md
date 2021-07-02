@@ -1,8 +1,7 @@
-#Map Affixes for MJB ARMA 3
+# Map Affixes for MJB ARMA 3
 A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
 
-
-##Bohemia Interactive
+## Bohemia Interactive
 | Map name | Affix |
 | - | - |
 | VR | `.vr`
@@ -12,7 +11,7 @@ A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
 | Stratis | `.Stratis`
 | Tanoa | `.Tanoa`
 
-##Tempaa
+## Tempaa
 
 | Map name | Affix
 |- |-
@@ -30,7 +29,7 @@ A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
 |Suursaari| `.tem_suursaariv`
 |Vinjesvingen| `.tem_vinjesvingenc`
 
-##CUP Terrains
+## CUP Terrains
 | Map name | Affix
 |- |-
 |Bukovina| `.Bootcamp_ACR`
@@ -52,14 +51,12 @@ A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
 |Utes|`.utes`
 |Zargabad|`.zargabad`
 
-##RHS
-
+## RHS
 | Map name | Affix
 |- |-
 |Prei Khmaoch Luong| `.rhspkl`
 
-##Global Mobilization
-
+## Global Mobilization
 | Map name | Affix
 |- |-
 |Weferlingen| `.gm_weferlingen_summer`
