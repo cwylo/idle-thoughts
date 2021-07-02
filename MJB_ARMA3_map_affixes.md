@@ -1,6 +1,8 @@
 # Map Affixes for MJB ARMA 3
 A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
 
+Ed. note: I believe these are *case-insensitive*.
+
 ## Bohemia Interactive
 | Map name | Affix |
 | - | - |
@@ -34,7 +36,7 @@ A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
 |- |-
 |Bukovina| `.Bootcamp_ACR`
 |Bystrica| `.Woodland_ACR`
-|Chernarus (Autumn)|: `.chernarus`
+|Chernarus (Autumn)| `.chernarus`
 |Chernarus (Summer)| `.chernarus_summer`
 |Chernarus (Winter)| `.Chernarus_Winter`
 |Desert| `.Desert_E`
