@@ -20,8 +20,8 @@ Ed. note: I believe these are *case-insensitive*.
 |Anizay| `.tem_anizay`
 |Cham| `.tem_cham`
 |Cham winter| `.tem_chamw`
-|Helanmaa| `.helanmaa`
-|Helanmaa winter| `.helanmaaw`
+|Hellanmaa| `.hellanmaa`
+|Hellanmaa winter| `.hellanmaaw`
 |Ihantala| `.tem_ihantala`
 |Kujari| `.tem_kujari`
 |Pulau| `.pulau`
