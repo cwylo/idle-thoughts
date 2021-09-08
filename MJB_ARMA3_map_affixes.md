@@ -1,7 +1,7 @@
 # Map Affixes for MJB ARMA 3
-A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-07-02.
+A list of all map affixes for the MJB ARMA3 mod pack. Last updated 2021-09-08.
 
-Ed. note: I believe these are *case-insensitive*.
+Ed. note: These are *case-insensitive*.
 
 ## Bohemia Interactive
 | Map name | Affix |
@@ -13,7 +13,7 @@ Ed. note: I believe these are *case-insensitive*.
 | Stratis | `.Stratis`
 | Tanoa | `.Tanoa`
 
-## Tempaa
+## Temppa
 
 | Map name | Affix
 |- |-
@@ -39,6 +39,7 @@ Ed. note: I believe these are *case-insensitive*.
 |Chernarus (Autumn)| `.chernarus`
 |Chernarus (Summer)| `.chernarus_summer`
 |Chernarus (Winter)| `.Chernarus_Winter`
+|Chernarus 2020| `.cup_chernarus_A3`
 |Desert| `.Desert_E`
 |Fallujah| `.fallujah`
 |Porto| `.porto`
@@ -53,14 +54,9 @@ Ed. note: I believe these are *case-insensitive*.
 |Utes|`.utes`
 |Zargabad|`.zargabad`
 
-## RHS
+## Misc
 | Map name | Affix
 |- |-
-|Prei Khmaoch Luong| `.rhspkl`
-
-## Global Mobilization
-| Map name | Affix
-|- |-
-|Weferlingen| `.gm_weferlingen_summer`
-|Weferlingen (Winter)|`.gm_weferlingen_winter`
-
+|Clafghan|`.clafghan`
+|Prei Khmaoch Luong|`.rhspkl`
+|Rosche, Germany|`.WL_Rosche`
