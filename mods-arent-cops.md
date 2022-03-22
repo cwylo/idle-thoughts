@@ -1,4 +1,5 @@
 #We Need To Stop Calling Ourselves Cops
+
 _Online community moderators aren’t cops and shouldn’t try to be._
 
 How would you explain what an online community moderator does, to someone who has no experience of moderated online communities? Chances are you reach for one of two metaphors: [janitor](https://commons.wikimedia.org/wiki/MediaWiki_administrator#Other_images), or cop. And I’m writing to say that we need to stop reaching for “cop”.
