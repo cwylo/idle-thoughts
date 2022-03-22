@@ -1,4 +1,4 @@
-#We Need To Stop Calling Ourselves Cops
+# We Need To Stop Calling Ourselves Cops
 
 _Online community moderators aren’t cops and shouldn’t try to be._
 
