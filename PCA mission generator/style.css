@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    background: #000;
+    font: normal 400 1em/1.5em 'PT Sans', sans-serif;
+    color: rgb(228, 228, 228);
+  }
+
+  div.missionDisplay {
+    background: rgb(219, 219, 219);
+    width: 100%;
+    max-width: 480px;
+    min-width: 320px;
+    margin: 2em auto 0;
+    padding: 1.5em;
+  }
+  
+  p { margin-bottom: 1.5em; }
+
+  em { 
+      font-weight: 700;
+      font-style: normal;
+     }
+  
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'PT Sans',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+    a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+
+@media all and (max-width:30em){
+    a.button1{
+        display:block;
+        margin:0.4em auto;
+        }
+    }
