@@ -4,6 +4,7 @@ body {
     background: #000;
     font: normal 400 1em/1.5em 'PT Sans', sans-serif;
     color: rgb(228, 228, 228);
+    margin: 3em 6em;
   }
 
   div.missionDisplay {

@@ -43,7 +43,9 @@ var gimmickTypes = [
     "it's in the McMCU",
     "it's super foggy",
     "there's a mission timer",
-    "there are civilians in the AO"
+    "there are civilians in the AO",
+    "the players get a mortar",
+    "the players are getting mortared"
 ];
 
 function pickString(somelist) {
