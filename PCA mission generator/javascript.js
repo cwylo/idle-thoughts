@@ -54,7 +54,7 @@ var constraintTypes = [
     "players must fight in low-visibility environments",
     "key points throughout are heavily fortified by the enemy",
     "players don't know the precise location of the objective",
-    "enemies are in good camouflage for the terrain",
+    "players have very limited supplies",
     "players have a restrictive ROE",
     "all the obvious entry points are heavily fortified and patrolled"
 ];
