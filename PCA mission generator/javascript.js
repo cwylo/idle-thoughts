@@ -46,17 +46,21 @@ var gimmickTypes = [
     "there's a mission timer",
     "there are civilians in the AO",
     "the players get a mortar",
-    "the players are getting mortared"
+    "the players are getting mortared",
+    "there's a defense section"
 ];
 
 var constraintTypes = [
     "the mission takes place on only 1km x 1km of terrain",
     "players must fight in low-visibility environments",
-    "key points throughout are heavily fortified by the enemy",
+    "key points throughout the approach are heavily fortified by the enemy",
     "players don't know the precise location of the objective",
     "players have very limited supplies",
     "players have a restrictive ROE",
-    "all the obvious entry points are heavily fortified and patrolled"
+    "all the obvious entry points are heavily fortified and patrolled",
+    "the enemy counterattack will be disproportionately heavy",
+    "players must finish the mission or extract by a hard deadline",
+    "the terrain of the AO constricts possible approaches"
 ];
 
 function pickString(somelist) {
