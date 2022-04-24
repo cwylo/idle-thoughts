@@ -30,7 +30,8 @@ var objectiveTypes = [
     "destroy assets",
     "eliminate an HVT",
     "stage an ambush",
-    "take out enemy artillery"
+    "take out enemy artillery",
+    "deliver supplies"
 ];
 
 var gimmickTypes = [
@@ -47,7 +48,8 @@ var gimmickTypes = [
     "there are civilians in the AO",
     "the players get a mortar",
     "the players are getting mortared",
-    "there's a defense section"
+    "there's a defense section",
+    "it's the pistols only eco round"
 ];
 
 var constraintTypes = [
@@ -97,5 +99,5 @@ function newSrsMission() {
     
     //Display it as a formatted HTML block.
         document.getElementById('missionDisplaySrs').innerHTML =  `<p>Players are a <em>${missionArraySrs[0]}</em>, fighting <em>${missionArraySrs[1]}</em>. This takes place on <em>${missionArraySrs[2]}</em> terrain. Their main objective is to <em>${missionArraySrs[3]}</em>. This mission\'s constraint is that <em>${missionArraySrs[4]}</em>.`;
-    
-    };
+        
+};
