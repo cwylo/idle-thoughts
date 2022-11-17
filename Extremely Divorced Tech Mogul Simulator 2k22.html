@@ -23,8 +23,7 @@ Choose your social media handle:
 (set: $fraud to 0)</tw-passagedata><tw-passagedata pid="2" name="Acquisition" tags="" position="1075,650" size="100,100">First you&#39;ve got to (link-show:&quot;buy your crypto&quot;,?cryptoname). This should be easy, since people who are clearly less smart than you managed to do it. 
 {
 (set: $hype to it + (random:1,5))(set: $ego to it + (random:1,5))
-}
-|cryptoname)[(set: str-type $cryptoname to (either:&quot;&quot;,&quot;&quot;,&quot;NEO&quot;,&quot;Das&quot;,&quot;EZ&quot;,&quot;New &quot;,&quot;Nu&quot;,&quot;The &quot;)+(either:&quot;Coin&quot;,&quot;Coin&quot;,&quot;Coin&quot;,&quot;DLLR&quot;,&quot;Byt&quot;)+(either:&quot; Token&quot;,&quot;Coin&quot;,&quot;jam&quot;,&quot;orbit&quot;,&quot;bit&quot;,&quot;&quot;,&quot;&quot;))
+}|cryptoname)[(set: str-type $cryptoname to (either:&quot;&quot;,&quot;&quot;,&quot;NEO&quot;,&quot;Das&quot;,&quot;EZ&quot;,&quot;New &quot;,&quot;Nu&quot;,&quot;The &quot;)+(either:&quot;Coin&quot;,&quot;Coin&quot;,&quot;Coin&quot;,&quot;DLLR&quot;,&quot;Byt&quot;)+(either:&quot; Token&quot;,&quot;Coin&quot;,&quot;jam&quot;,&quot;orbit&quot;,&quot;bit&quot;,&quot;&quot;,&quot;&quot;))
 Gaze upon your newest possession:  **[(print:$cryptoname)]**
  
  (link-rerun:&quot;No, I actually bought something else.&quot;)[(rerun:?cryptoname)]
@@ -42,10 +41,12 @@ Gaze upon your newest possession:  **[(print:$cryptoname)]**
 (set:$ego to it + (random:1,3))
 }Time to write:
 
-(b4r:&quot;solid&quot;)+(b4r-colour:white)[$name toots: |tootselect&gt;[(set: _toot to (shuffled:
+(b4r:&quot;solid&quot;)+(b4r-colour:white)[$name tweets: |tootselect&gt;[(set: _toot to (shuffled:
 	$cryptoname + &quot; is rock solid! 💎💎🙌&quot;,
     &quot;Exclusive Gold Early Believers will get special Discord access and other perks, stay tuned!&quot;,
-    &quot;//an insultingly generic Musk x Crypto meme//&quot;,)
+    &quot;(some insultingly generic Musk x Crypto meme)&quot;,
+    &quot;gm! \n buy the dip!&quot;,
+    &quot;Missed BTC? Try &quot;+ $cryptoname +&quot;!&quot;,)
     )
     (print: 1st of _toot)
     ]
@@ -60,14 +61,14 @@ Gaze upon your newest possession:  **[(print:$cryptoname)]**
 
 [[New day, new moves.|TO THE MOON]]
 
-</tw-passagedata><tw-passagedata pid="6" name="Wait" tags="" position="1100,875" size="100,100">(set: $ego to it - 1)(if: $ego &lt; 0)[(set:$ego to 0)]
+</tw-passagedata><tw-passagedata pid="6" name="Wait" tags="" position="1100,875" size="100,100">{(set: $ego to it - 1)(if: $ego &lt; 0)[(set:$ego to 0)]
 (set: $hype to it - (random:1,3))(if:$hype &lt; 0)[(set:$hype to 0)]
 
-(either:&quot;Seems... dull.&quot;,&quot;Nothing is happening.&quot;) 
+}(either:&quot;Seems... dull.&quot;,&quot;Nothing is happening.&quot;,&quot;Yet another boring day of deleting your incorrect tweets.&quot;) 
 
-[[Why not fire off a tweet?|TO THE MOON]]</tw-passagedata><tw-passagedata pid="7" name="END" tags="" position="1325,525" size="100,100">Uh oh, you&#39;ve been rumbled -- it looks like **$name** is the Main Character of Twooter today. Something about how $cryptoname is a &quot;fraud&quot; and &quot;made up&quot; and how it&#39;s all a part of the &quot;crash&quot;.
+[[Why not fire off a tweet?|TO THE MOON]]</tw-passagedata><tw-passagedata pid="7" name="END" tags="" position="1325,525" size="100,100">Uh oh, you&#39;ve been rumbled -- it looks like **$name** is the Main Character of Twitter today. Something about how $cryptoname is a &quot;fraud&quot; and &quot;made up&quot; and how it&#39;s all a part of the &quot;crash&quot;. (either:&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;Okay, maybe your public multithread meltdown might have had a part, too.&quot;)
 
-That&#39;s okay - all you have to do is (cycling-link:&quot;escape to a non-extradition country with the rest of the cash&quot;,&quot;make a big public show of contrition and grab the crypto wallet on the way out&quot;,&quot;quietly and discreetly disinvest yourself via your nested shell corps&quot;) and [[do it all over again!|CHOOSE YOUR MOGUL]]</tw-passagedata></tw-storydata>
+That&#39;s okay - all you have to do is (cycling-link:&quot;escape to a non-extradition country with the rest of the cash&quot;,&quot;make a big public show of contrition and grab the crypto wallet on the way out&quot;,&quot;quietly and discreetly disinvest yourself via your nested shell corps&quot;,&quot;buy out Twitter&quot;) and [[do it all over again!|CHOOSE YOUR MOGUL]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
